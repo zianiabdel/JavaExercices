@@ -1,7 +1,6 @@
 package be.cardinalmercier.tp13;
 
 
-
 /**
  * Compteur.java
  * Un compteur qui compte jusqu'à 10 en faisant une pose
