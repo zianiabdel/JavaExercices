@@ -14,7 +14,7 @@ public class Etudiant {
 	}
 	public double moyenne(){
 		double somme = 0;
-		for (Integer points : dernierNumAttribue   ) {
+		for (Integer points : listePoints ) {
 			somme += points;
 		}
 		if (listePoints.size() == 0) return 0;
@@ -22,7 +22,7 @@ public class Etudiant {
 	}
 	public String toString() {
 		StringBuffer s = new StringBuffer("Nom : " + nom + " num : "+num+"\nPoints : ");
-		for (Integer points : ____________________) {
+		for (Integer points : listePoints) {
 			s.append("\t" + points);
 		}
 		s.append("\n" + "moyenne = " + this.moyenne()+"\n");
@@ -40,7 +40,7 @@ public class Etudiant {
 	 */
 	public static String toStringAll(){
 		StringBuffer sb = new StringBuffer();
-		for (Etudiant etudiant : __________________) {
+		for (Etudiant etudiant : listeEtu) {
 			sb.append(etudiant.toString());
 		}
 		String s = new String(sb);
