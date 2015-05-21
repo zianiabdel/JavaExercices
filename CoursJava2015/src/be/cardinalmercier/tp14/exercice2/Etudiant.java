@@ -7,14 +7,14 @@ public class Etudiant {
 	private static int dernierNumAttribue = 0;
 	private int num;
 	private ArrayList<Integer> listePoints = new ArrayList<Integer>();
-			public static ____________________ listeEtu = new __________________________
+			public static ArrayList<Etudiant> listeEtu = new ArrayList<Etudiant>(); 
 			public Etudiant(String nom){
 		this.nom = nom;
 		this.num = ++ dernierNumAttribue; //pré-incrémentation
 	}
 	public double moyenne(){
 		double somme = 0;
-		for (Integer points : ___________________) {
+		for (Integer points : dernierNumAttribue   ) {
 			somme += points;
 		}
 		if (listePoints.size() == 0) return 0;
