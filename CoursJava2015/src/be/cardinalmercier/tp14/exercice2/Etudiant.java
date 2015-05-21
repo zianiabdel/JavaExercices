@@ -1,8 +1,6 @@
 package be.cardinalmercier.tp14.exercice2;
 
-
 import java.util.ArrayList;
-
 
 public class Etudiant {
 	private String nom;
