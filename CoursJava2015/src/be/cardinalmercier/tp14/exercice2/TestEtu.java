@@ -6,6 +6,10 @@ import javax.swing.JOptionPane;
 
 import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
 
+/**
+ * @author Abderrahman ZIANI
+ *
+ */
 public class TestEtu {
 	public static String getMenu(){
 		StringBuffer sb = new StringBuffer();

@@ -2,6 +2,10 @@ package be.cardinalmercier.tp14.exercice2;
 
 import java.util.ArrayList;
 
+/**
+ * @author Abderrahman ZIANI
+ *
+ */
 public class Etudiant {
 	private String nom;
 	private static int dernierNumAttribue = 0;
