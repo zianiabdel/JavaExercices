@@ -7,8 +7,8 @@ public class Etudiant {
 	private static int dernierNumAttribue = 0;
 	private int num;
 	private ArrayList<Integer> listePoints = new ArrayList<Integer>();
-			public static ArrayList<Etudiant> listeEtu = new ArrayList<Etudiant>(); 
-			public Etudiant(String nom){
+	public static ArrayList<Etudiant> listeEtu = new ArrayList<Etudiant>(); 
+	public Etudiant(String nom){
 		this.nom = nom;
 		this.num = ++ dernierNumAttribue; //pré-incrémentation
 	}
@@ -30,10 +30,10 @@ public class Etudiant {
 		return s2;
 	}
 	public static void ajouteEtu(Etudiant newEtu){
-		____________.______(newEtu);
+		Etudiant.ajouteEtu(newEtu);
 	}
 	public void ajoutePoint(int newPoint){
-		____________.______(newPoint);
+		listePoints.add(newPoint);
 	}
 	/**
 	 * @return une chaine de caractères qui représentent tous les étudiants de la liste

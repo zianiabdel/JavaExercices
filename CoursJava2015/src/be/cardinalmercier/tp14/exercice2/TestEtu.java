@@ -4,6 +4,8 @@ package be.cardinalmercier.tp14.exercice2;
 
 import javax.swing.JOptionPane;
 
+import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
+
 public class TestEtu {
 	public static String getMenu(){
 		StringBuffer sb = new StringBuffer();
@@ -24,13 +26,13 @@ public class TestEtu {
 			case '1' :
 				String nom = JOptionPane.showInputDialog("Nom de l'étudiant : ");
 				Etudiant etu = new Etudiant(nom);
-				______________._______________._____(etu);
+				Etudiant.ajouteEtu(etu);
 				break;
 			case '2' :
 				for (Etudiant etud : Etudiant.listeEtu) {
 					int points = Integer.parseInt(JOptionPane.showInputDialog(
 							etud.toString()+"\nNouveaux points de cet étudiant : "));
-					____.____________________(points);
+					etud.ajoutePoint(points);
 				}
 				break;
 			case '3' :
