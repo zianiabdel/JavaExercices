@@ -6,6 +6,7 @@ import java.util.ArrayList;
  * @author Abderrahman ZIANI
  *
  */
+
 public class Etudiant {
 	private String nom;
 	private static int dernierNumAttribue = 0;
@@ -34,7 +35,7 @@ public class Etudiant {
 		return s2;
 	}
 	public static void ajouteEtu(Etudiant newEtu){
-		Etudiant.ajouteEtu(newEtu);
+		listeEtu.add(newEtu);
 	}
 	public void ajoutePoint(int newPoint){
 		listePoints.add(newPoint);
