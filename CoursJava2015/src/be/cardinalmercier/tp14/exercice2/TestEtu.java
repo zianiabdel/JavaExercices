@@ -4,7 +4,6 @@ package be.cardinalmercier.tp14.exercice2;
 
 import javax.swing.JOptionPane;
 
-import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
 
 /**
  * @author Abderrahman ZIANI
