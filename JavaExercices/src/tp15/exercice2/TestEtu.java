@@ -1,9 +1,7 @@
 package tp15.exercice2;
 
 
-
 import javax.swing.JOptionPane;
-
 
 /**
  * @author Abderrahman ZIANI
