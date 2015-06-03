@@ -19,8 +19,6 @@ public class Window extends JFrame implements ActionListener, MouseListener {
 		System.out.println("The Window is shown!");
 		fenetre.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
-	
-	@SuppressWarnings({"unused" })
 	public void mouseClicked (MouseEvent ev) {
 		System.out.println ("clic dans fenetre") ;
 	}
